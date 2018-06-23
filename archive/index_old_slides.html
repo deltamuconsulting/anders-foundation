@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8" />
+	<title>The Anders Foundation</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--[if IE]>
+	<script src="http://rhtml5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+		$(function(){
+			$('#slidebox_images img:gt(0)').hide();
+			setInterval(function(){$('#slidebox_images :first-child').fadeOut().next('img').fadeIn().end().appendTo('#slidebox_images');}, 5000);
+		});
+	</script>
+    <script type="text/javascript">
+		if (/MSIE (\d+\.\d+);/.test(navigator.userAgent))
+		{ 
+		   var ieversion=new Number(RegExp.$1);
+		   if (ieversion<=8)
+		   {
+			  redir = "http://whatbrowser.org/";
+			  window.location = redir;
+		   }
+		}
+	</script>
+</head>
+
+<body>
+	<div id="header">
+    	<div id="header_logo">
+        	<h1>The Anders Foundation</h1>
+        	<a class="logo" href="index.html"><img class="logo" src="Images/anders-logo-header.png"></a>       
+        </div>
+		<div id="header_content">
+        	<p class="opening">In memory of Anders Nielsen 1967 – 2010</p>
+			<p class="overview">England Badminton International,<br />English National Badminton Men's Singles Champion<br />and British Olympian.</p>
+            <div id="header_slogan">
+    			<span class="goal">TO ENCOURAGE YOUNG PEOPLE OF ALL ABILITES<br />
+            	TO ACHIEVE THEIR SPORTING GOALS</span>
+            </div>
+        </div>
+        <div id="header_contact">
+        	<p class="get_in_touch">Get In Touch</p>
+			<p class="email">hello@andersfoundation.org</p>
+        </div>  
+        <div id="header_donate">
+            <a class="donate" href="http://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?uniqueVmgCharityUrl=andersfoundation" target="_blank">Donate</a>
+        </div>
+        <img class="fold_left" src="Images/fold-left.png">
+        <img class="fold_right" src="Images/fold-right.png">
+	</div>
+
+	<!-- Navigation Bar -->
+    <div id="navbar">
+   		<ul class="nav_list">
+        	<li><a class="nav_list active_nav" href="index.html">About Us</a></li>
+            <li><a class="nav_list" href="events.html">Events</a></li>
+            <li><a class="nav_list" href="success_stories.html">Success Stories</a></li>
+            <li><a class="nav_list" href="fundraising_news.html">Fundraising News</a></li>
+            <li><a class="nav_list" href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    <!-- Main -->
+    <div id="main">
+        <div id="main_shadow">
+            <div id="main_slidebox">
+                <div id="slidebox_description">
+                    <p><span class="charity_name">The Anders Foundation</span> was formed as a legacy to Anders Nielsen who sadly lost his life in 2010 after a year-long fight with cancer.</p><br />
+                    <p>To celebrate Anders' determination to succeed and admirable work ethic, highlighted by the international success he achieved in his Badminton career, we aim to support young people of all abilities, both disabled and able bodied, to achieve their Badminton goals.</p><br />                    
+                    <p><span class="charity_name">The Anders Foundation</span> will award monies throughout the UK to individuals and clubs / institutions on a case by case basis considered by the trustees and in conjunction with selected experts from within the sport of badminton.</p><br />
+                </div>             
+                <div id="slidebox_images">
+                    <img src="Images/anders_slide_1.png">
+                    <img src="Images/anders_slide_2.jpg">
+                    <img src="Images/anders_slide_3.jpg">
+                    <img src="Images/anders_slide_4.jpg">
+                    <img src="Images/anders_slide_5.jpg">
+                </div>
+            </div>
+       </div>
+    </div>
+    
+    <!-- Content in columns -->
+    <div id="content">
+    	<div id="column_left">
+        	<div id="column_heading">
+        		<h2>Anders Nielsen Golf Day  17/06/13</h2>   	
+            </div>
+            <div id="column_image">
+            	<a href="events.html"><img src="images/golf_day.png" alt="Anders Nielsen Golf Day"></a>
+            </div>
+            <div id="column_content">
+            	<p>The Anders Nielsen Golf Day is held to support the <span class="bold">Anders Foundation</span> and <a class="column_link bold" href="http://www.sparks.org.uk/">Sparks</a> charity.</p><br />
+				<p>Held at the exclusive members-only <span class="bold">Royal Automobile Club.</span> Sweeping down towards Epsom racecourse, the tree-lined grounds make for a dramatic backdrop to a round of golf at any time of year. It offers the perfect setting for this wonderful golf day.</p><br />
+				<p>The tournament is a team competition - Fourball Betterball Stableford (best two of four scores to count). Handicap allowance: Men 24, Ladies 36.</p><br />
+				<p>For further information about booking <a class="column_link" href="events.html">click here</a> or call <a class="column_link bold" href="http://www.sparks.org.uk/">Sparks</a> on 020 7091 7750.</p>
+            </div>
+        </div>
+        
+        <div id="column_break">
+        </div>
+        
+        <div id="column_center">
+        	<div id="column_heading">
+        		<h2>Recent Funding</h2>
+            </div>
+            <div id="column_image">
+            	<a href="index.html"><img src="images/wimbledon.png" alt="Recent Funding"></a>
+            </div>
+            <div id="column_content">
+            	<p>Text here about the recent funding to <span class="bold">Wimbledon Racquets &amp; Fitness Club</span> to provide wheelchairs for their disability sessions. </p><br />
+				<p>Text here about the recent funding to Wimbledon Racquets &amp; Fitness Club to provide wheelchairs for their disability sessions. </p><br />
+				<p>Read more about our recent funding and success stories <a class="column_link" href="success_stories.html">here.</a></p>
+            </div>
+        </div>
+        
+        <div id="column_break_2">
+        </div>
+        
+        <div id="column_right">
+        	<div id="column_heading">
+        		<h2>Fundraising News</h2>
+            </div>
+            <div id="column_image">
+            	<a href="index.html"><img src="images/bike_ride.png" alt="Fundraising News"></a>
+            </div>
+            <div id="column_content">
+            	<p>What can we say about <span class="bold">Craig Clelland</span> and his "Tudor Team" of <span class="bold">Neil Bromley, Lee Smith, Rob Stoker, Steve Brand, Jason Hancock and Alex Cooper,</span> and their incredible bicycle ride from London to Edinburgh in so few hours?</p> <br />
+				<p>They are simply amazing and our thanks go out to each member of the team for supporting the Anders Foundation in this way.</p> <br />
+ 				<p>And thanks too to all those who have so generously donated to the Anders Foundation by supporting Craig and his team.</p> <br /> 	
+            </div>
+        </div>   
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer">
+    	<div id="footer_logo">
+        	<a href=""><img src="Images/anders-logo-footer.png"></a>
+        </div>
+        <div id="footer_art">
+        	<img src="Images/shuttlecock.png">
+        </div>
+    	<div id="footer_border">
+        </div>
+        <div id="footer_details">
+        	<p class="footer_overview">Registered UK Charity 1149870.</p>
+            <p class="footer_overview">The trustees are Heather Nielsen, Bjorn Nielsen, Gorm Nielsen and Nick Ponting.</p>
+            <p class="footer_spacer"></p> 
+            <p class="footer_overview">Website &copy; 2013 The Anders Foundation, All Rights Reserved.</p>  
+        </div> 
+    </div>
+</body>
+</html>
