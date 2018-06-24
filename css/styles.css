@@ -91,7 +91,7 @@ a img {
 	height: 88px;
 	margin-top: -5px;
 	padding: 0 15px 16px 0;
-} 
+}
 
 .fold_left {
 	position:relative;
@@ -153,14 +153,14 @@ ul.nav_list li {
 	font-size:140%;
 	text-transform:uppercase;
 	padding: 1px 45px 2px 45px;
-	background-position:right; 
+	background-position:right;
 	background-repeat:repeat-y !important;
 	background-image: url(../images/dot-white.png);
 }
 
-ul.nav_list li:last-child { 
-    background:none; 
-} 
+ul.nav_list li:last-child {
+    background:none;
+}
 
 /* main */
 
@@ -204,8 +204,8 @@ ul.nav_list li:last-child {
 	position:relative;
 }
 
-#slidebox_images img { 
-	position:absolute; left:0; top:0; 
+#slidebox_images img {
+	position:absolute; left:0; top:0;
 }
 
 .charity_name {
@@ -280,13 +280,6 @@ ul.nav_list li:last-child {
 	width:948px;
 	margin: 0 0 0 25px;
 }
-#association_heading {
-	height: 35px;
-	width: 177px;
-	background: #FFF;
-	text-align:center;
-	margin: -38px auto 0 auto;
-}
 #association {
 	height: 120px;
 	width: 1000px;
@@ -310,16 +303,7 @@ ul.nav_list li:last-child {
 	margin: 0 4px 0 0;
 	padding: 0 0 0 25px;
 }
-#association_image {
-	float: left;
-	padding: 0 10px 40px 10px;
-}
-#association_content{
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	line-height:14px;
-	font-style: normal;
-	font-size: 80%;
-}
+
 .thanks {
 	padding:5px 0 20px 0;
 	border-bottom: 2px solid #e3e3e3;
@@ -336,7 +320,7 @@ ul.nav_list li:last-child {
 	width:1000px;
 	height: 110px;
 	margin: 0;
-	background: #FCEA10;	
+	background: #FCEA10;
 }
 
 #footer_logo {
@@ -507,7 +491,7 @@ a.column_link:active {
 
 #main_events,main_success_stories,main_scholarships,main_contact_us,content_banner,two_column_layout,two_column_content,two_column_left,two_column_right,two_column_image,two_column_caption,two_column_image_with_caption {
 	display: block;
-}	
+}
 
 #main_events {
 	height: 1250px;
@@ -716,7 +700,7 @@ li.bullet {
   width: 100%;
   border: 0;
   }
-  
+
 .rslides_container {
   float:left;
   height: 361px;
@@ -846,7 +830,108 @@ li.bullet {
   background: #222;
   background: rgba(0,0,0, .8);
   }
-  
+
 .biggap{
 	margin-top:15px;
+}
+
+.homepage-heading {
+	height: 35px;
+	background: #FCEA10;
+}
+
+.homepage-image {
+	width: 260px;
+	height: 180px;
+	margin:17px 0 15px 0;
+	padding: 10px 10px 10px 9px;
+	border: #F4F4F4 1px solid;
+	-moz-box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+	-webkit-box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+	box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+}
+
+.homepage-content {
+	width: 277px;
+	padding: 0;
+}
+
+.association-heading {
+	height: 35px;
+	width: 177px;
+	background: #FFF;
+	text-align:center;
+	margin: -38px auto 0 auto;
+}
+.association-image {
+	float: left;
+	padding: 0 10px 40px 10px;
+}
+.association-content{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:14px;
+	font-style: normal;
+	font-size: 80%;
+}
+
+.blog-post-left {
+	margin: 13px 20px 15px 30px;
+	float: left;
+	width: 451px;
+}
+.blog-post-right {
+	margin: 13px 30px 0 11px;
+	float: left;
+	width: 450px;
+}
+.blog-post-break {
+	float: left;
+	height:3px;
+	width: 940px;
+	background-repeat:repeat-x !important;
+	background-image: url(../images/dot-landscape.png);
+	margin: 5px 30px 7px 30px;
+}
+.blog-heading {
+	height: 35px;
+	background: #FCEA10 !important;
+	display: block;
+}
+.blog-content {
+	width: 447px;
+	padding: 20px 0 0 0;
+	display: block;
+}
+.blog-image {
+	margin: 20px 0 35px 0;
+	padding: 7px;
+	border: #F4F4F4 1px solid;
+	-moz-box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+	-webkit-box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+	box-shadow:0px 0px 4px 2px rgba(199, 199, 199, 0.55);
+}
+.blog-image.landscape{
+	width: 437px;
+	height: 302px;
+}
+.blog-image.portrait{
+	width: 437px;
+	height: 627px;
+}
+.blog-image.caption{
+	margin: 20px 0 15px 0;
+}
+.blog-caption {
+	padding: 0 10px;
+	font-style:italic;
+	font-size:80%;
+	display: block;
+}
+.blog-content-heading {
+	font-family: 'Oswald', Tahoma, Geneva, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	color:#575756;
+	font-size:130%;
+	text-transform:uppercase;
 }
